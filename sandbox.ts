@@ -1,19 +1,26 @@
+
 // let character = 'mario'
 // let age = 30
 // let isBlackBelt =false
 // const circ = (diameter: number) => diameter * Math.PI
 // console.log(circ('dd'))
 // let names = ['luigi', 'mario', 'yoshi']
+
+
 // names.push('toad')
 // names.push(1)
 // names[0] = 3
 // let numbers = [10, 20, 30, 40]
 // numbers.push(2)
 // numbers[1] = 'dd'
+
+
 // let mixed = ['ken', 4, 'chun-li', 8, 9]
 // mixed.push('ryu')
 // mixed.push(10)
 // mixed[0] = 1
+
+
 // let ninja = {
 //     name: 'mario',
 //     belt: 'black',
@@ -27,8 +34,10 @@
 //     name: 'youshi',
 //     belt: 'orange',
 //     age: 30,
-// skills: []
+    // skills: []
 // }
+
+
 // let character: string
 // let age: number
 // let isLoggedIn: boolean
@@ -38,6 +47,8 @@
 // isLoggedIn = false
 // character = 'hi'
 // character = 1
+
+
 // let ningas: string[]
 // ningas.push('shaun') //error
 // ningas = ['yoshi', 'mario']
@@ -72,6 +83,7 @@
 //     age: 32,
 //     beltColour: 'black'
 // }
+
 // function filter (arg: string): number{
 //     switch(arg){
 //         case 'I':
