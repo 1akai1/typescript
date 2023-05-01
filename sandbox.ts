@@ -6,7 +6,6 @@
 // console.log(circ('dd'))
 // let names = ['luigi', 'mario', 'yoshi']
 
-
 // names.push('toad')
 // names.push(1)
 // names[0] = 3
@@ -34,7 +33,7 @@
 //     name: 'youshi',
 //     belt: 'orange',
 //     age: 30,
-    // skills: []
+    //     skills: []
 // }
 
 
@@ -81,8 +80,47 @@
 // ninjaTwo = {
 //     name: 'mario',
 //     age: 32,
-//     beltColour: 'black'
+//     beltColour: 'black',
 // }
+
+
+// let age: any = 25
+// age = true
+// console.log(age)
+// age = 'hello'
+// console.log(age)
+// age = {name: 'luigi'}
+// console.log(age)
+// let mixed : any[] = []
+// mixed.push(5)
+// mixed.push('mario')
+// mixed.push(false)
+// console.log(mixed)
+// let ninja:  {name: any , age: any}
+// ninja = {name: 'yoshi', age: 25}
+// console.log(ninja)
+// ninja = {name: 25, age: 'yoshi'}
+// console.log(ninja)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // function filter (arg: string): number{
 //     switch(arg){
