@@ -1,25 +1,20 @@
-
+"use strict";
 // let character = 'mario'
 // let age = 30
 // let isBlackBelt =false
 // const circ = (diameter: number) => diameter * Math.PI
 // console.log(circ('dd'))
 // let names = ['luigi', 'mario', 'yoshi']
-
 // names.push('toad')
 // names.push(1)
 // names[0] = 3
 // let numbers = [10, 20, 30, 40]
 // numbers.push(2)
 // numbers[1] = 'dd'
-
-
 // let mixed = ['ken', 4, 'chun-li', 8, 9]
 // mixed.push('ryu')
 // mixed.push(10)
 // mixed[0] = 1
-
-
 // let ninja = {
 //     name: 'mario',
 //     belt: 'black',
@@ -33,10 +28,8 @@
 //     name: 'youshi',
 //     belt: 'orange',
 //     age: 30,
-    //     skills: []
+//     skills: []
 // }
-
-
 // let character: string
 // let age: number
 // let isLoggedIn: boolean
@@ -46,8 +39,6 @@
 // isLoggedIn = false
 // character = 'hi'
 // character = 1
-
-
 // let ningas: string[]
 // ningas.push('shaun') //error
 // ningas = ['yoshi', 'mario']
@@ -82,8 +73,6 @@
 //     age: 32,
 //     beltColour: 'black',
 // }
-
-
 // let age: any = 25
 // age = true
 // console.log(age)
@@ -101,27 +90,6 @@
 // console.log(ninja)
 // ninja = {name: 25, age: 'yoshi'}
 // console.log(ninja)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // function filter (arg: string): number{
 //     switch(arg){
 //         case 'I':
@@ -162,3 +130,47 @@
 //      return accumulator + x})
 // }
 // console.log(romanToInt('MCMXCIV'))
+// let greet = () => {
+//     console.log('Hello')
+// }
+// greet = 'dd'
+// let greet: Function
+// greet = 'dd'
+// greet = () =>{
+//     console.log('hello')
+// }
+// const add = (a:number, b: number, c?: number | string ) => {
+//     console.log(a + b )
+//     console.log(c)
+// }
+// add(5,10,'11')
+// const minus = (a: number, b: number): number => {
+//     return a + b
+// }
+// const minus = (set:{a: number, b: number}): number => {
+//     return set.a + set.b
+// }
+// type StringOrNum = string | number
+// type objWithName = {any: string, uid: StringOrNum}
+// const minus = (set: StringOrNum): void => {}
+// const greet = (user: objWithName): void => {}
+// minus(1)
+// greet({any: '1', uid: 's'})
+/////////////////////////////////////
+let greet;
+greet = (name, greeting) => {
+    console.log(`${name} says ${greeting}`);
+};
+let calc;
+calc = (numOne, numTwo, action) => {
+    if (action === 'add') {
+        return numOne + numTwo;
+    }
+    else {
+        return numOne - numTwo;
+    }
+};
+let logDetails;
+logDetails = (ninja) => {
+    console.log(`${ninja.name} is ${ninja.age} years old`);
+};
